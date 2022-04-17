@@ -1,0 +1,32 @@
+.drum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  font-size: 7rem;
+}
+img {
+  width: 8rem;
+  height: 8rem;
+  position : relative ;
+  top : 50px ;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 75%);
+  mask-image: linear-gradient(to bottom, transparent 5%, black 75%, blue, red); 
+}
+button {
+    width: 6rem;
+    height: 6rem;
+    justify-content: center;
+    align-content : center;
+    
+}
+body {
+  background : linear-gradient(to right, rgb(229, 24, 195), blue, red)
+}
+.container{
+  max-width: 24%;
+  height: 24%;
+  border: solid 1px greenyellow;
+  background : linear-gradient (to bottom, rgba(0,0,0,0.4), rgba(128,128,128,0.4), rgba(255,255,255,0.4))
+}
